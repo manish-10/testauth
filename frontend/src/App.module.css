@@ -1,0 +1,21 @@
+.app {
+  text-align: center;
+  background-color: #eeeeee;
+  place-content: center;
+  align-items: center;
+  display: flex;
+  z-index: 0;
+  min-width: 100vw;
+  min-height: 100vh;
+}
+.modal {
+  display: flex;
+  position: absolute;
+  justify-content: space-evenly;
+  width: 25%;
+  height: 50%;
+  background-color: #ffffff;
+  z-index: 1;
+  box-shadow: 2px 3px 2px rgb(184, 180, 180);
+  border-radius: 20px;
+}

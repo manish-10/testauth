@@ -1,0 +1,23 @@
+{
+  "name": "IncubateIND",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "run-p start:** dev",
+    "start:app": "cd frontend && yarn start",
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "chalk": "^4.1.1",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-passport-logout": "^0.1.0",
+    "nodemon": "^2.0.12",
+    "passport": "^0.4.1",
+    "passport-github": "^1.1.0",
+    "passport-google-oauth20": "^2.0.0",
+    "passport-linkedin-oauth2": "^2.0.0",
+    "run-p": "^0.0.0"
+  }
+}
